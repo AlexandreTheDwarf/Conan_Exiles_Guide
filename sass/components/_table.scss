@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    color : $color-brown;
+    th, td {
+        border: 1px dotted $color-brown;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    th {
+        background-color: $color_dark_brown;
+        font-size: large;
+    }
+
+    .effect-cell {
+        font-weight: bold;
+    }
+}
+
